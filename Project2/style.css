@@ -5,6 +5,7 @@ body{
 .header-container{
     display: flex;
     width: 1440px;
+    margin: 0 auto;
     padding-top: 104px;
     padding-left: 133px;
     padding-right: 133px;
@@ -72,9 +73,58 @@ body{
 }
 
 .popular-title{
+    margin-top: 43px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300;
 
 }
 
 .models-title{
-    
+    text-align: center;
+    font-size: 72px;
+    line-height: 81px;
+    font-weight: 400;
+    margin-bottom: 84px;
+}
+
+/* первая карточка товара */
+
+.item-wrapper{
+    margin: 0 auto;
+    width: 417px;
+    margin-bottom: 85px;
+}
+
+.item-img-wrapper{
+    margin-bottom: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 417px;
+    height: 630px;
+    background-color: #f8f8f8;
+}
+
+.item-title{
+    margin-bottom: 17px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+.item-description{
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.product-description-wrapper{
+    margin: 0 auto;
+    width: 417px;
+    margin-bottom: 85px;
 }
